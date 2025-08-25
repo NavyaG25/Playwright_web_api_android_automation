@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-08-22T18:20:09.372491",
+  "method": "DELETE",
+  "url": "https://automationexercise.com/api/deleteAccount",
+  "request_data": {
+    "email": "test_989buh0s@example.com",
+    "password": "testpassword123"
+  },
+  "response_status": 200,
+  "response_headers": {
+    "Date": "Fri, 22 Aug 2025 12:50:09 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept,Cookie,Accept-Encoding",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Allow": "DELETE, OPTIONS",
+    "X-Powered-By": "Phusion Passenger(R) 6.0.23",
+    "Status": "200 OK",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6xLd8yMpO076GBQxJo1Y%2F1YvWCdQKYqDo9QKIR9Z9Pec33Nb0FPcaDjClOgtF6c0i0rayTt8n7JUnAJi5%2BuwdqBlQXB48Abu%2BZwyIVBDkAVNWtzwE7W9mjwstNarBmDY53Y%3D\"}]}",
+    "Server": "cloudflare",
+    "Cf-Cache-Status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "97327e82ceaec3c2-SIN",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "response_body": "{\"responseCode\": 404, \"message\": \"Account not found!\"}"
+}

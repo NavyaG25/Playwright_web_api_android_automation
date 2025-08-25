@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-08-22T18:19:57.453280",
+  "method": "POST",
+  "url": "https://automationexercise.com/api/verifyLogin",
+  "request_data": {
+    "email": "invalid@example.com",
+    "password": "wrongpassword"
+  },
+  "response_status": 200,
+  "response_headers": {
+    "Date": "Fri, 22 Aug 2025 12:49:57 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept,Cookie,Accept-Encoding",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Allow": "OPTIONS, PUT, GET, DELETE, POST",
+    "X-Powered-By": "Phusion Passenger(R) 6.0.23",
+    "Status": "200 OK",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8fw3IcRkV9F0cjD2Bfpnb3SKhBeZxZqKJy1cSf%2B8BNCA4mZUEMGyHASoVY2m%2FIeWz%2FBacAQgXjMTGgI6Nyon4GXFkT2eQzphIiRDMznH0CwCGslPskNThrHG3rvxXdpLcRI%3D\"}]}",
+    "Server": "cloudflare",
+    "Cf-Cache-Status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "97327e384e94fc2e-SIN",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "response_body": "{\"responseCode\": 404, \"message\": \"User not found!\"}"
+}

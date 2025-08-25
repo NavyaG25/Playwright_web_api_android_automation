@@ -1,0 +1,13 @@
+2025-08-22 18:19:53,362 - INFO - GET https://automationexercise.com/api/getUserDetailByEmail - Status: 200
+2025-08-22 18:19:54,577 - INFO - POST https://automationexercise.com/api/createAccount - Status: 200
+2025-08-22 18:19:55,794 - INFO - POST https://automationexercise.com/api/verifyLogin - Status: 200
+2025-08-22 18:19:55,794 - INFO - Test 3: Response content: {"responseCode": 404, "message": "User not found!"}
+2025-08-22 18:19:57,455 - INFO - POST https://automationexercise.com/api/verifyLogin - Status: 200
+2025-08-22 18:19:59,192 - INFO - POST https://automationexercise.com/api/searchProduct - Status: 200
+2025-08-22 18:19:59,729 - INFO - POST https://automationexercise.com/api/searchProduct - Status: 200
+2025-08-22 18:20:00,255 - INFO - POST https://automationexercise.com/api/searchProduct - Status: 200
+2025-08-22 18:20:00,801 - INFO - POST https://automationexercise.com/api/searchProduct - Status: 200
+2025-08-22 18:20:03,906 - INFO - GET https://automationexercise.com/api/productsList - Status: 200
+2025-08-22 18:20:06,732 - INFO - GET https://automationexercise.com/api/brandsList - Status: 200
+2025-08-22 18:20:09,374 - INFO - DELETE https://automationexercise.com/api/deleteAccount - Status: 200
+2025-08-22 18:20:09,375 - INFO - Test 8: Response content: {"responseCode": 404, "message": "Account not found!"}

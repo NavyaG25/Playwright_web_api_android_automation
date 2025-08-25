@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-08-22T18:20:00.254849",
+  "method": "POST",
+  "url": "https://automationexercise.com/api/searchProduct",
+  "request_data": {
+    "search_product": "jean"
+  },
+  "response_status": 200,
+  "response_headers": {
+    "Date": "Fri, 22 Aug 2025 12:50:00 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept,Cookie,Accept-Encoding",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Allow": "POST, DELETE, OPTIONS, GET, PUT",
+    "X-Powered-By": "Phusion Passenger(R) 6.0.23",
+    "Status": "200 OK",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=os4FwyGKzdsgrBb68Mkol4M92JdIftAUvYc%2F3B3T7dN0Rnd7KpvVeeIIf4Ga4%2FgEJMXu5%2BfHYyBQvIW5BmRgVbhPAX0Q36DHmMGWdB1c3aH8bHV6pZgANej953PZHjGmbA8%3D\"}]}",
+    "Server": "cloudflare",
+    "Cf-Cache-Status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "97327e4d4d0ddb9c-SIN",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "response_body": "{\"responseCode\": 200, \"products\": [{\"id\": 33, \"name\": \"Soft Stretch Jeans\", \"price\": \"Rs. 799\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 35, \"name\": \"Regular Fit Straight Jeans\", \"price\": \"Rs. 1200\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}, {\"id\": 37, \"name\": \"Grunt Blue Slim Fit Jeans\", \"price\": \"Rs. 1400\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Jeans\"}}]}"
+}

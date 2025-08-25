@@ -1,0 +1,24 @@
+2025-08-22 19:49:03,435 - INFO - Starting Test Case 1: Register User
+2025-08-22 19:49:03,435 - INFO - Navigating to homepage
+2025-08-22 19:49:07,465 - INFO - Home page verified successfully
+2025-08-22 19:49:07,667 - INFO - Clicking Signup/Login button
+2025-08-22 19:49:08,659 - INFO - New User Signup section verified
+2025-08-22 19:49:08,759 - INFO - Filling signup details for user: TestUser20250822194903
+2025-08-22 19:49:08,775 - INFO - Clicking Signup button
+2025-08-22 19:49:09,286 - INFO - Enter Account Information page verified
+2025-08-22 19:49:09,406 - INFO - Filling account information
+2025-08-22 19:49:09,550 - INFO - Filling address information
+2025-08-22 19:49:09,635 - INFO - Clicking Create Account button
+2025-08-22 19:49:10,764 - INFO - Account created successfully
+2025-08-22 19:49:11,479 - INFO - User successfully logged in: TestUser20250822194903
+2025-08-22 19:49:11,479 - INFO - Test Case 1: Register User completed successfully in 8.04 seconds
+2025-08-22 19:49:11,557 - INFO - Starting Test Case 4: Search Product
+2025-08-22 19:49:11,557 - INFO - Navigating to homepage
+2025-08-22 19:49:30,504 - INFO - Home page verified successfully
+2025-08-22 19:49:30,696 - INFO - Clicking Products button
+2025-08-22 19:49:31,701 - INFO - All Products page verified
+2025-08-22 19:49:31,722 - INFO - Products list verified
+2025-08-22 19:49:31,838 - INFO - Searching for product: dress
+2025-08-22 19:49:33,051 - INFO - Search results verified
+2025-08-22 19:49:33,158 - INFO - Search for 'dress' completed successfully
+2025-08-22 19:49:33,159 - INFO - Test Case 4: Search Product completed successfully in 21.60 seconds

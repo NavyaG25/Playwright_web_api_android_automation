@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-08-22T18:19:59.190349",
+  "method": "POST",
+  "url": "https://automationexercise.com/api/searchProduct",
+  "request_data": {
+    "search_product": "top"
+  },
+  "response_status": 200,
+  "response_headers": {
+    "Date": "Fri, 22 Aug 2025 12:49:59 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept,Cookie,Accept-Encoding",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Allow": "OPTIONS, PUT, GET, DELETE, POST",
+    "X-Powered-By": "Phusion Passenger(R) 6.0.23",
+    "Status": "200 OK",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TnMNWhcrwTX1Qwg89SH3PICPGk31sVSJ764EntKlWLCKoCrVPWL6p2urJRnA7M0phOsOhx50%2FlTT8MIcd%2BaM1DQAtItk8hK%2BeF2BhcvGqQOzCNNjzhYNZmbPsYUtWpFKiys%3D\"}]}",
+    "Server": "cloudflare",
+    "Cf-Cache-Status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "97327e4308b7db9c-SIN",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "response_body": "{\"responseCode\": 200, \"products\": [{\"id\": 1, \"name\": \"Blue Top\", \"price\": \"Rs. 500\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 5, \"name\": \"Winter Top\", \"price\": \"Rs. 600\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 6, \"name\": \"Summer White Top\", \"price\": \"Rs. 400\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 7, \"name\": \"Madame Top For Women\", \"price\": \"Rs. 1000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 8, \"name\": \"Fancy Green Top\", \"price\": \"Rs. 700\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}, {\"id\": 11, \"name\": \"Sleeves Printed Top - White\", \"price\": \"Rs. 499\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 12, \"name\": \"Half Sleeves Top Schiffli Detailing - Pink\", \"price\": \"Rs. 359\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 13, \"name\": \"Frozen Tops For Kids\", \"price\": \"Rs. 278\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 14, \"name\": \"Full Sleeves Top Cherry - Pink\", \"price\": \"Rs. 679\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 15, \"name\": \"Printed Off Shoulder Top - White\", \"price\": \"Rs. 315\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 16, \"name\": \"Sleeves Top and Short - Blue & Pink\", \"price\": \"Rs. 478\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 18, \"name\": \"Little Girls Mr. Panda Shirt\", \"price\": \"Rs. 1200\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 24, \"name\": \"Colour Blocked Shirt \\u2013 Sky Blue\", \"price\": \"Rs. 849\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Tops & Shirts\"}}, {\"id\": 42, \"name\": \"Lace Top For Women\", \"price\": \"Rs. 1400\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Tops\"}}]}"
+}

@@ -1,0 +1,18 @@
+{
+  "test": "test_login_mobile",
+  "status": "passed",
+  "steps": [
+    {
+      "step": "connect_cdp",
+      "status": "passed",
+      "details": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "step": "login",
+      "status": "passed",
+      "details": "Login successful, Products page loaded."
+    }
+  ],
+  "screenshot": "screenshots\\saucedemo_homepage_mobile_20250825_150510_20250825_150513.png",
+  "login_screenshot": "screenshots\\saucedemo_login_mobile_20250825_150510_20250825_150514.png"
+}

@@ -1,0 +1,16 @@
+Task: Automate login on https://www.saucedemo.com/ in Chrome on my Android device.
+
+Instructions:
+- Use Mobile MCP ONLY to launch Chrome and navigate to the URL in a new tab.
+- Use Playwright CDP MCP ONLY for the following DOM actions in the existing tab:
+  1. Wait until the username field (#user-name) is visible.
+  2. Enter "standard_user" in the username field.
+  3. Enter "secret_sauce" in the password field.
+  4. Click the "Login" button.
+  5. Wait until the page shows the text "Products".
+  6. Take a screenshot and save it as saucedemo_login_mobile.png.
+  7. Save all locators and interaction methods in one file for future automation.
+- Attach to the first available Chrome tab dynamically; do NOT reuse cached tab IDs.
+- Add a short wait (0.5-1s) before attaching to ensure the tab is fully loaded.
+- Do not create additional tabs, reload, or navigate again.
+- Follow exactly these steps, nothing extra.

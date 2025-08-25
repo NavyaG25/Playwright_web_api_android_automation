@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-08-22T18:20:00.799976",
+  "method": "POST",
+  "url": "https://automationexercise.com/api/searchProduct",
+  "request_data": {
+    "search_product": "dress"
+  },
+  "response_status": 200,
+  "response_headers": {
+    "Date": "Fri, 22 Aug 2025 12:50:00 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept,Cookie,Accept-Encoding",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Allow": "OPTIONS, PUT, GET, DELETE, POST",
+    "X-Powered-By": "Phusion Passenger(R) 6.0.23",
+    "Status": "200 OK",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=flZ4c08Xawb9PMg9CjDYrkAwO62tbEerZkgxjP8PtkzAxY46H7pRvvCSt%2Bz0en2CVQxyMGNWAJGBmpfQLTmYxObQEWrJ46DOZTAE8R%2BxpXXM85E4YoW%2F54%2BAPUHjL5IN7%2FI%3D\"}]}",
+    "Server": "cloudflare",
+    "Cf-Cache-Status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "97327e509e59db9c-SIN",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "response_body": "{\"responseCode\": 200, \"products\": [{\"id\": 3, \"name\": \"Sleeveless Dress\", \"price\": \"Rs. 1000\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 4, \"name\": \"Stylish Dress\", \"price\": \"Rs. 1500\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}, {\"id\": 16, \"name\": \"Sleeves Top and Short - Blue & Pink\", \"price\": \"Rs. 478\", \"brand\": \"Babyhug\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 19, \"name\": \"Sleeveless Unicorn Patch Gown - Pink\", \"price\": \"Rs. 1050\", \"brand\": \"Allen Solly Junior\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 20, \"name\": \"Cotton Mull Embroidered Dress\", \"price\": \"Rs. 1190\", \"brand\": \"Kookie Kids\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 21, \"name\": \"Blue Cotton Indie Mickey Dress\", \"price\": \"Rs. 1530\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 22, \"name\": \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\", \"price\": \"Rs. 1600\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 23, \"name\": \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\", \"price\": \"Rs. 1100\", \"brand\": \"Biba\", \"category\": {\"usertype\": {\"usertype\": \"Kids\"}, \"category\": \"Dress\"}}, {\"id\": 38, \"name\": \"Rose Pink Embroidered Maxi Dress\", \"price\": \"Rs. 2300\", \"brand\": \"Madame\", \"category\": {\"usertype\": {\"usertype\": \"Women\"}, \"category\": \"Dress\"}}]}"
+}

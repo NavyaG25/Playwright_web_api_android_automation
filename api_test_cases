@@ -1,0 +1,34 @@
+API Test case 1: GET user account detail by email
+API URL: https://automationexercise.com/api/getUserDetailByEmail
+Request Method: GET
+Request Parameters: email
+Response Code: 200
+Response JSON: User Detail
+
+API Test case 2: POST To Create/Register User Account
+API URL: https://automationexercise.com/api/createAccount
+Request Method: POST
+Request Parameters: name, email, password, title (for example: Mr, Mrs, Miss), birth_date, birth_month, birth_year, firstname, lastname, company, address1, address2, country, zipcode, state, city, mobile_number
+Response Code: 201
+Response Message: User created!
+
+API Test case 3: POST To Verify Login with valid details
+API URL: https://automationexercise.com/api/verifyLogin
+Request Method: POST
+Request Parameters: email, password
+Response Code: 200
+Response Message: User exists!
+
+API Test case 4: POST To Search Product
+API URL: https://automationexercise.com/api/searchProduct
+Request Method: POST
+Request Parameter: search_product (For example: top, tshirt, jean)
+Response Code: 200
+Response JSON: Searched products list
+
+API Test case 5: DELETE METHOD To Delete User Account
+API URL: https://automationexercise.com/api/deleteAccount
+Request Method: DELETE
+Request Parameters: email, password
+Response Code: 200
+Response Message: Account deleted!

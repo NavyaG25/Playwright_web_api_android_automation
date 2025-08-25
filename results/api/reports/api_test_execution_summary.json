@@ -1,0 +1,142 @@
+{
+  "total_tests": 11,
+  "passed": 11,
+  "failed": 0,
+  "total_api_calls": 11,
+  "avg_response_time": 1590.754,
+  "execution_time": "2025-08-22T18:20:09.381696",
+  "test_results": [
+    {
+      "test_name": "GET user detail by email - Invalid email",
+      "api_endpoint": "https://automationexercise.com/api/getUserDetailByEmail",
+      "http_method": "GET",
+      "status_code": 200,
+      "response_time_ms": 1606.196,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"user\": {\"id\": 860372, \"name\": \"\", \"email\": \"nonexistent@example.com\", \"title\"...",
+      "timestamp": "2025-08-22T18:19:53.363827",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Create/Register User Account",
+      "api_endpoint": "https://automationexercise.com/api/createAccount",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 1191.628,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 201, \"message\": \"User created!\"}...",
+      "timestamp": "2025-08-22T18:19:54.577980",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Verify Login with valid details",
+      "api_endpoint": "https://automationexercise.com/api/verifyLogin",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 1204.961,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 404, \"message\": \"User not found!\"}...",
+      "timestamp": "2025-08-22T18:19:55.794903",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Verify Login with invalid details",
+      "api_endpoint": "https://automationexercise.com/api/verifyLogin",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 1650.2939999999999,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 404, \"message\": \"User not found!\"}...",
+      "timestamp": "2025-08-22T18:19:57.456015",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Search Product - 'top'",
+      "api_endpoint": "https://automationexercise.com/api/searchProduct",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 1721.215,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"products\": [{\"id\": 1, \"name\": \"Blue Top\", \"price\": \"Rs. 500\", \"brand\": \"Polo\"...",
+      "timestamp": "2025-08-22T18:19:59.194118",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Search Product - 'tshirt'",
+      "api_endpoint": "https://automationexercise.com/api/searchProduct",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 527.747,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"products\": [{\"id\": 2, \"name\": \"Men Tshirt\", \"price\": \"Rs. 400\", \"brand\": \"H&M...",
+      "timestamp": "2025-08-22T18:19:59.729788",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Search Product - 'jean'",
+      "api_endpoint": "https://automationexercise.com/api/searchProduct",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 521.598,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"products\": [{\"id\": 33, \"name\": \"Soft Stretch Jeans\", \"price\": \"Rs. 799\", \"bra...",
+      "timestamp": "2025-08-22T18:20:00.255701",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "POST To Search Product - 'dress'",
+      "api_endpoint": "https://automationexercise.com/api/searchProduct",
+      "http_method": "POST",
+      "status_code": 200,
+      "response_time_ms": 542.5799999999999,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"products\": [{\"id\": 3, \"name\": \"Sleeveless Dress\", \"price\": \"Rs. 1000\", \"brand...",
+      "timestamp": "2025-08-22T18:20:00.802270",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "GET All Products List",
+      "api_endpoint": "https://automationexercise.com/api/productsList",
+      "http_method": "GET",
+      "status_code": 200,
+      "response_time_ms": 3091.891,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"products\": [{\"id\": 1, \"name\": \"Blue Top\", \"price\": \"Rs. 500\", \"brand\": \"Polo\"...",
+      "timestamp": "2025-08-22T18:20:03.907105",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "GET All Brands List",
+      "api_endpoint": "https://automationexercise.com/api/brandsList",
+      "http_method": "GET",
+      "status_code": 200,
+      "response_time_ms": 2811.561,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 200, \"brands\": [{\"id\": 1, \"brand\": \"Polo\"}, {\"id\": 2, \"brand\": \"H&M\"}, {\"id\": 3, \"b...",
+      "timestamp": "2025-08-22T18:20:06.732872",
+      "request_data": {},
+      "response_data": {}
+    },
+    {
+      "test_name": "DELETE METHOD To Delete User Account",
+      "api_endpoint": "https://automationexercise.com/api/deleteAccount",
+      "http_method": "DELETE",
+      "status_code": 200,
+      "response_time_ms": 2628.623,
+      "test_status": "PASS",
+      "details": "Response: {\"responseCode\": 404, \"message\": \"Account not found!\"}...",
+      "timestamp": "2025-08-22T18:20:09.375044",
+      "request_data": {},
+      "response_data": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-08-22T18:19:53.360821",
+  "method": "GET",
+  "url": "https://automationexercise.com/api/getUserDetailByEmail",
+  "request_data": {
+    "email": "nonexistent@example.com"
+  },
+  "response_status": 200,
+  "response_headers": {
+    "Date": "Fri, 22 Aug 2025 12:49:53 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept,Cookie,Accept-Encoding",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Allow": "OPTIONS, PUT, GET, DELETE, POST",
+    "X-Powered-By": "Phusion Passenger(R) 6.0.23",
+    "Status": "200 OK",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=eEpFEgE3vb1rU91Xf8Q8xOYbdjhC6AvCt7I3%2BJExg7spU%2BlC%2Babd5KJVpVaZFxv5uwW8TOTK%2Bg%2BrIwZDMyxikkSRliFbsh13LXjVJzaAjPRxqrayOSgwuiYS6vwrY8Sjg5A%3D\"}]}",
+    "Server": "cloudflare",
+    "Cf-Cache-Status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "97327e1edb99fdec-SIN",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "response_body": "{\"responseCode\": 200, \"user\": {\"id\": 860372, \"name\": \"\", \"email\": \"nonexistent@example.com\", \"title\": \"Mr\", \"birth_day\": \"1\", \"birth_month\": \"January\", \"birth_year\": \"1990\", \"first_name\": \"\", \"last_name\": \"Test\", \"company\": \"TestCompany\", \"address1\": \"123 Test St\", \"address2\": \"Apt 4\", \"country\": \"United States\", \"state\": \"TestState\", \"city\": \"TestCity\", \"zipcode\": \"12345\"}}"
+}

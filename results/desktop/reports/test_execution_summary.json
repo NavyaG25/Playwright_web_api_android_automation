@@ -1,0 +1,34 @@
+{
+  "total_tests": 2,
+  "passed": 2,
+  "failed": 0,
+  "execution_time": "2025-08-22T19:49:33.366383",
+  "test_results": [
+    {
+      "test_name": "Test Case 1: Register User",
+      "status": "PASS",
+      "duration": 8.043780326843262,
+      "details": "User registration completed successfully for TestUser20250822194903",
+      "screenshots": [
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\01_homepage_loaded_20250822_194907.png",
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\02_signup_login_page_20250822_194908.png",
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\03_account_information_page_20250822_194909.png",
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\04_account_created_success_20250822_194910.png",
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\05_logged_in_homepage_20250822_194911.png"
+      ],
+      "timestamp": "2025-08-22T19:49:11.479344"
+    },
+    {
+      "test_name": "Test Case 4: Search Product",
+      "status": "PASS",
+      "duration": 21.601257801055908,
+      "details": "Product search completed successfully for 'dress'",
+      "screenshots": [
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\06_homepage_for_search_20250822_194930.png",
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\07_products_page_20250822_194931.png",
+        "C:\\Users\\navya\\Desktop\\Playwright-web-mobile-automation\\results\\desktop\\screenshots\\08_search_results_20250822_194933.png"
+      ],
+      "timestamp": "2025-08-22T19:49:33.159010"
+    }
+  ]
+}
